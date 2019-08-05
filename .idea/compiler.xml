@@ -13,12 +13,5 @@
         <module name="dbs-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="maven-archiver (1)" target="1.5" />
-      <module name="maven-archiver (2)" target="1.5" />
-      <module name="maven-archiver (3)" target="1.5" />
-      <module name="maven-archiver (4)" target="1.5" />
-      <module name="maven-archiver (5)" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
