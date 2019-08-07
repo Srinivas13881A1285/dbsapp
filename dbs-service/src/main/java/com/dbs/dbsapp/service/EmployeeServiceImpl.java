@@ -1,13 +1,19 @@
 package com.dbs.dbsapp.service;
 
-import com.dbs.dbsapp.dao.mongo.Employee;
-import com.dbs.dbsapp.dao.mongo.repos.EmployeeRepository;
+import com.dbs.dbsapp.dao.model.Employee;
+import com.dbs.dbsapp.dao.repos.EmployeeRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
     private EmployeeRepository employeeRepository;
+
+    @Override
+    public String deleteEmployee(Long id) {
+         this.employeeRepository.deleteById(id);
+         return "deleted successfully";
+    }
 
     public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
         this.employeeRepository = employeeRepository;

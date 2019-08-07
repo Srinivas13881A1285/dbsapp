@@ -1,6 +1,6 @@
 package com.dbs.dbsapp.restcontrollers;
 
-import com.dbs.dbsapp.dao.mongo.Employee;
+import com.dbs.dbsapp.dao.model.Employee;
 import com.dbs.dbsapp.service.EmployeeService;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,6 +22,13 @@ public class EmployeeController {
     @GetMapping("/all")
     public Iterable<Employee> getEmployees(){
         return this.employeeService.getEmployees();
+    }
+
+
+    @DeleteMapping("/{id}")
+    public String deleteEmployee(@PathVariable(value = "id")final Long id){
+        System.out.println("delete method called :"+id);
+        return this.employeeService.deleteEmployee(id);
     }
 
 

@@ -15,6 +15,7 @@ public class TeamController {
     }
 
     @GetMapping
+    //@CrossOrigin(origins = "/**")
     public Iterable<Team> getTeams(){
         return this.teamService.getAllTeams();
     }

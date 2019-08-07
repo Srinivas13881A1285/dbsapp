@@ -1,14 +1,15 @@
-package com.dbs.dbsapp.dao.mongo;
+package com.dbs.dbsapp.dao.model;
 
-import org.springframework.data.mongodb.core.mapping.Document;
+import javax.persistence.*;
 
-import javax.persistence.Id;
-
-@Document(collection = "employee")
+@Entity
+@Table(name = "employee")
 public class Employee {
-    @Id
-    private Long id;
 
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private String name;
 
