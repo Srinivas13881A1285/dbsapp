@@ -3,6 +3,7 @@ package com.dbs.dbsapp.restcontrollers;
 import com.dbs.dbsapp.config.JwtTokenUtil;
 import com.dbs.dbsapp.dao.model.JwtRequest;
 import com.dbs.dbsapp.dao.model.JwtResponse;
+import com.dbs.dbsapp.dao.model.UserDTO;
 import com.dbs.dbsapp.service.JwtUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -36,6 +37,11 @@ public class JwtAuthenticationController {
         final String token = jwtTokenUtil.generateToken(userDetails);
 
         return ResponseEntity.ok(new JwtResponse(token));
+    }
+
+    @PostMapping("/register")
+    public ResponseEntity<?> saveUser(@RequestBody UserDTO user){
+        return ResponseEntity.ok(userDetailsService.save(user));
     }
 
     private void authenticate(String username, String password) throws Exception {
