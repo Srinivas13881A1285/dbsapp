@@ -1,7 +1,10 @@
 package com.dbs.dbsapp.restcontrollers;
 
 import com.dbs.dbsapp.dao.model.Employee;
+import com.dbs.dbsapp.dao.model.User;
 import com.dbs.dbsapp.service.EmployeeService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -20,8 +23,8 @@ public class EmployeeController {
     }
 
     @GetMapping("/all")
-    public Iterable<Employee> getEmployees(){
-        return this.employeeService.getEmployees();
+    public ResponseEntity<?> getEmployees(){
+        return new ResponseEntity<>(this.employeeService.getEmployees(), HttpStatus.OK);
     }
 
 
@@ -31,5 +34,10 @@ public class EmployeeController {
         return this.employeeService.deleteEmployee(id);
     }
 
+    @GetMapping("/validateLogin")
+    public User validateLogin(){
+        // perform findbyid for user details.
+        return new User("User successfully authenticated");
+    }
 
 }

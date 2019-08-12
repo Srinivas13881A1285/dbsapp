@@ -6,19 +6,18 @@ import javax.persistence.*;
 @Table(name = "employee")
 public class Employee {
 
-
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+    private Long empId;
     private String name;
+    private String designation;
+    private Long salary;
 
-    public Long getId() {
-        return id;
+    public Long getEmpId() {
+        return empId;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setEmpId(Long empId) {
+        this.empId = empId;
     }
 
     public String getName() {
@@ -28,4 +27,22 @@ public class Employee {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getDesignation() {
+        return designation;
+    }
+
+    public void setDesignation(String designation) {
+        this.designation = designation;
+    }
+
+    public Long getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Long salary) {
+        this.salary = salary;
+    }
 }
+
+

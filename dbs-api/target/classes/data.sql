@@ -6,11 +6,12 @@ insert into teams(team_code)values('teamfive');
 insert into teams(team_code)values('teamsix');
 
 
-insert into employee(name)values('srinivas');
-insert into employee(name)values('employeetwo');
-insert into employee(name)values('employeethree');
-insert into employee(name)values('employeefour');
-insert into employee(name)values('employeefive');
+insert into employee(emp_id,name,designation,salary)values('53','Srinivas Chintakindhi','Software Engineer','45000');
+insert into employee(emp_id,name,designation,salary)values('54','Bharathi Virodhula','Software Engineer','75000');
+insert into employee(emp_id,name,designation,salary)values('55','Manasa Ivaturi','Software Engineer','100000');
+insert into employee(emp_id,name,designation,salary)values('56','Priyanka Kotturi','Senior Officer','60000');
+
+
 
 
 
