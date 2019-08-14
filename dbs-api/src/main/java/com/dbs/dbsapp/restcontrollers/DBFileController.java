@@ -1,6 +1,6 @@
 package com.dbs.dbsapp.restcontrollers;
 
-import com.dbs.dbsapp.dao.DBFile;
+import com.dbs.dbsapp.dao.model.DBFile;
 import com.dbs.dbsapp.dao.model.UploadFileResponse;
 import com.dbs.dbsapp.service.DBFileStorageService;
 

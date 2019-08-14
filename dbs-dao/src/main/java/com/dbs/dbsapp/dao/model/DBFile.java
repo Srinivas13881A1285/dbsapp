@@ -1,4 +1,4 @@
-package com.dbs.dbsapp.dao;
+package com.dbs.dbsapp.dao.model;
 
 import javax.persistence.*;
 

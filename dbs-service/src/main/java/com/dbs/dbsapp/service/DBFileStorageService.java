@@ -1,6 +1,6 @@
 package com.dbs.dbsapp.service;
 
-import com.dbs.dbsapp.dao.DBFile;
+import com.dbs.dbsapp.dao.model.DBFile;
 import com.dbs.dbsapp.dao.repos.DBFileRepository;
 import com.dbs.dbsapp.exceptions.FileStorageException;
 import com.dbs.dbsapp.exceptions.model.MyFileNotFoundException;
