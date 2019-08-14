@@ -3,7 +3,7 @@ package com.dbs.dbsapp.service;
 import com.dbs.dbsapp.dao.model.DBFile;
 import com.dbs.dbsapp.dao.repos.DBFileRepository;
 import com.dbs.dbsapp.exceptions.FileStorageException;
-import com.dbs.dbsapp.exceptions.model.MyFileNotFoundException;
+import com.dbs.dbsapp.exceptions.MyFileNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -39,5 +39,9 @@ public class DBFileStorageService {
         return dbFileRepository.
                 findById(fileId).
                 orElseThrow(() -> new MyFileNotFoundException("File Not Found with fileId :" + fileId));
+    }
+
+    public DBFile getFileByName(String fileName){
+         return dbFileRepository.findByFileName(fileName);
     }
 }

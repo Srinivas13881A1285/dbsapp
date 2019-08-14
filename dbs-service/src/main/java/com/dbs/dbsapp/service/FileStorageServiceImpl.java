@@ -2,7 +2,7 @@ package com.dbs.dbsapp.service;
 
 import com.dbs.dbsapp.dao.model.FileStorageProperties;
 import com.dbs.dbsapp.exceptions.FileStorageException;
-import com.dbs.dbsapp.exceptions.model.MyFileNotFoundException;
+import com.dbs.dbsapp.exceptions.MyFileNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
@@ -24,8 +24,7 @@ public class FileStorageServiceImpl implements FileStorageService {
 
     @Autowired
     public FileStorageServiceImpl(FileStorageProperties fileStorageProperties) {
-        this.fileStorageLocation = Paths.get(fileStorageProperties.getUploadDir())
-                .toAbsolutePath().normalize();
+        this.fileStorageLocation = Paths.get(fileStorageProperties.getUploadDir()).toAbsolutePath().normalize();
 
         try {
             Files.createDirectories(this.fileStorageLocation);

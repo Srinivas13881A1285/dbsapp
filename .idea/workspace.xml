@@ -1,120 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d903e500-4ed2-4532-a1c4-1d251b3c116b" name="Default Changelist" comment="">
+    <list default="true" id="4a94eaec-b9d4-4fe5-944c-def376e47f29" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/RestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/RestConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbs-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbs-api/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbs-api/target/classes/com/dbs/dbsapp/RestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/target/classes/com/dbs/dbsapp/RestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbs-api/target/classes/com/dbs/dbsapp/config/RestConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/target/classes/com/dbs/dbsapp/config/RestConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbs-api/target/classes/com/dbs/dbsapp/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/target/classes/com/dbs/dbsapp/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbs-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/DBFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/DBFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/model/DBFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/model/DBFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/repos/DBFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/repos/DBFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs-dao/target/classes/com/dbs/dbsapp/dao/repos/DBFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-dao/target/classes/com/dbs/dbsapp/dao/repos/DBFileRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs-exceptions/src/main/java/com/dbs/dbsapp/exceptions/model/MyFileNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-exceptions/src/main/java/com/dbs/dbsapp/exceptions/MyFileNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/DBFileStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/DBFileStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileStorageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileStorageServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dbs-dao/target/" />
-    <ignored path="$PROJECT_DIR$/dbs-service/target/" />
     <ignored path="$PROJECT_DIR$/dbs-exceptions/target/" />
-    <ignored path="$PROJECT_DIR$/dbs-api/target/" />
     <ignored path="$PROJECT_DIR$/dbs-common/target/" />
+    <ignored path="$PROJECT_DIR$/dbs-service/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dbs-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="dbs-app" />
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/DBFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/repos/DBFileRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/RestConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/RestApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding>
-                <element signature="e#1407#1408#0" expanded="true" />
-                <element signature="e#1473#1474#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBFileController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/DBFileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/DBFileStorageService.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbs-api/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/RestConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/FileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="48" column="44" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DB</find>
+      <find>@Enable</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\dbsapp</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,31 +83,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dbs-service/pom.xml" />
-        <option value="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileService.java" />
-        <option value="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/model/UploadFileResponse.java" />
-        <option value="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileStorageProperties.java" />
-        <option value="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/dbs-api/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/model/FileStorageProperties.java" />
-        <option value="$PROJECT_DIR$/dbs-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/RestApplication.java" />
-        <option value="$PROJECT_DIR$/dbs-exceptions/src/main/java/com/dbs/dbsapp/exceptions/model/MyFileNotFoundException.java" />
-        <option value="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileStorageService.java" />
+        <option value="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/model/DBFile.java" />
         <option value="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileStorageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/FileController.java" />
+        <option value="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/repos/DBFileRepository.java" />
         <option value="$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/DBFileStorageService.java" />
         <option value="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/DBFileController.java" />
-        <option value="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/repos/DBFileRepository.java" />
-        <option value="$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/DBFile.java" />
+        <option value="$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/RestConfiguration.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -155,18 +98,20 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,30 +120,98 @@
               <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs" type="462c0819:PsiDirectoryNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs" type="462c0819:PsiDirectoryNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="restcontrollers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbs-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dbs" type="462c0819:PsiDirectoryNode" />
+              <item name="dbsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="restcontrollers" type="462c0819:PsiDirectoryNode" />
+              <item name="DBFileController" type="1a9f42e2:ClassTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565759856559" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.dbs.dbsapp.dao.model" />
-      <recent name="com.dbs.dbsapp.service" />
-    </key>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,22 +226,61 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbs.dbsapp.RestApplication" />
       <module name="dbs-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dbs.dbsapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dbs.dbsapp.RestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RestApplication" />
+        <item itemvalue="Application.RestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -237,234 +289,111 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d903e500-4ed2-4532-a1c4-1d251b3c116b" name="Default Changelist" comment="" />
-      <created>1565711020659</created>
+      <changelist id="4a94eaec-b9d4-4fe5-944c-def376e47f29" name="Default" comment="" />
+      <created>1565766464558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565711020659</updated>
-      <workItem from="1565711023306" duration="12092000" />
+      <updated>1565766464558</updated>
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12092000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15704697" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.47025496" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23229462" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.3295302" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3582251" />
+      <window_info anchor="right" id="Codota" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.035181236" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.51070666" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.10074627" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33190578" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="SonarLint" order="0" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.21481876" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Codota" order="0" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3582251" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.035181236" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dbs-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/RestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-exceptions/src/main/java/com/dbs/dbsapp/exceptions/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-exceptions/src/main/java/com/dbs/dbsapp/exceptions/ResourceNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/model/UploadFileResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileStorageProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/SwaggerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-exceptions/src/main/java/com/dbs/dbsapp/exceptions/FileStorageException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="938">
-          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/model/FileStorageProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-exceptions/src/main/java/com/dbs/dbsapp/exceptions/model/MyFileNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileStorageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/FileStorageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/RestConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/RestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/DBFileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-579">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dbs-service/src/main/java/com/dbs/dbsapp/service/DBFileStorageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="512">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/model/DBFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -473,35 +402,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/repos/DBFileRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbs-dao/src/main/java/com/dbs/dbsapp/dao/DBFile.java">
+    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/config/RestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbs-api/src/main/java/com/dbs/dbsapp/restcontrollers/DBFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

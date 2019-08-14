@@ -1,13 +1,18 @@
 package com.dbs.dbsapp.dao.model;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "files")
 public class DBFile {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    @GeneratedValue(generator = "uuid")
+    @GenericGenerator(name = "uuid", strategy = "uuid2")
+    @Column(name = "file_id")
+    private String fileId;
 
     private String fileName;
 
@@ -49,11 +54,11 @@ public class DBFile {
         this.data = data;
     }
 
-    public String getId() {
-        return id;
+    public String getFileId() {
+        return fileId;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setFileId(String fileId) {
+        this.fileId = fileId;
     }
 }

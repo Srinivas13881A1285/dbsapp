@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  * @author Srinivas
  */
 @Configuration
-@EnableWebMvc
+//@EnableWebMvc
 public class RestConfiguration {
     /**
      * @return

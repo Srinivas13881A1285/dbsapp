@@ -34,7 +34,8 @@ public class DBFileController {
 
         String fileDownloadUri = ServletUriComponentsBuilder
                 .fromCurrentContextPath()
-                .path(dbFile.getId())
+                .path("/downloadFile/")
+                .path(dbFile.getFileName())
                 .toUriString();
 
         return new UploadFileResponse(dbFile.getFileName(), fileDownloadUri, file.getContentType(), file.getSize());
@@ -52,6 +53,17 @@ public class DBFileController {
     @GetMapping("/downloadFileDB/{fileId}")
     public ResponseEntity<Resource> downloadFileDB(@PathVariable("fileId") String fileId) {
         DBFile dbFile = dbFileStorageService.getFile(fileId);
+
+        return ResponseEntity.ok()
+                .contentType(MediaType.parseMediaType(dbFile.getFileType()))
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + dbFile.getFileName() + "\"")
+                .body(new ByteArrayResource(dbFile.getData()));
+    }
+
+    @GetMapping("/downloadFileDBByName/{fileName:.+}")
+    public ResponseEntity<Resource> downloadFileDBName(@PathVariable("fileName") String fileName) {
+        System.out.println(fileName);
+        DBFile dbFile = dbFileStorageService.getFileByName(fileName);
 
         return ResponseEntity.ok()
                 .contentType(MediaType.parseMediaType(dbFile.getFileType()))
