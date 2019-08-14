@@ -18,6 +18,10 @@
         <groupId>com.dbs</groupId>
         <artifactId>dbs-dao</artifactId>
         <version>1.0-SNAPSHOT</version>
+    </dependency> <dependency>
+        <groupId>com.dbs</groupId>
+        <artifactId>dbs-exceptions</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
         <groupId>org.springframework.boot</groupId>

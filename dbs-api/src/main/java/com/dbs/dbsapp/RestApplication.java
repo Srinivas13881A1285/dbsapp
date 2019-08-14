@@ -1,5 +1,6 @@
 package com.dbs.dbsapp;
 
+import com.dbs.dbsapp.dao.model.FileStorageProperties;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -7,6 +8,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -21,6 +23,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @EnableScheduling
 @CrossOrigin(origins = "*")
 @EnableBatchProcessing
+@EnableConfigurationProperties({FileStorageProperties.class})
 public class RestApplication extends SpringBootServletInitializer implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(RestApplication.class, args);
